@@ -1,0 +1,493 @@
+*   {  
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+}
+.hero{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(245, 148, 216);
+}
+.hamburguesa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: rgb(49, 45, 46);
+    font-size: 25px;  
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.hamburguesa :hover{
+    color: rgb(243, 153, 34);
+}
+.hamburguesa__item :hover {
+    display:block;
+}
+.hamburguesa__item  {
+    display: none;
+}
+
+nav{    
+    width: auto;   
+    display: none;
+
+}
+.content{
+    height: 90vh;
+    width: 100%;
+    background-image: url(./multimedia/lago_pueblo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    font-size: 20px;    
+    letter-spacing: 1px;    
+    cursor: pointer;
+    padding-top: 12px;
+    padding-left: 12px;
+    text-decoration: none;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.btn{
+    background-color: rgb(250, 148, 168);
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 20px;    
+    padding: 8px 10px;
+    display: none;
+}
+.btn:hover{ 
+    color: blueviolet;
+    transition: .4s ;
+}
+.content{
+    top: 30%;
+    left: 8%;
+    transform: translateY(-50);
+    /* display: grid;
+    grid-template-areas: ; */
+}
+h1{
+    color: rgb(245, 143, 236);
+    margin: 20px 30px 20px;
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    color: antiquewhite;
+    font-size: 20px;    
+    margin-bottom: 50px;
+    margin-left: 30px;
+    text-align: center;
+}
+h4{
+    color: rgb(236, 194, 181);
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 25px;
+}
+.newsletter form{
+    padding-left: 15px;
+    width: 280px;
+    max-width: 100%;
+    position: relative;
+
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 100px 10px 10px;
+    border: 2px solid palevioletred;
+    border-radius: 26px;
+}
+.input_comencemos{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(236, 186, 213);
+    font-weight: bold;
+    cursor: pointer;
+    right: 5px;
+}
+.input_comencemos:hover{
+    color:deeppink;
+    transition: .4s ;
+}
+.nosotros{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+    background-color:  rgb(245, 236, 241);
+}
+.nosotros img{
+    display: none;
+    height: auto;
+    width: 530px;
+}
+.nosotros__texto{
+    width: 550px;
+    padding: 30px;
+}
+.nosotros__principal{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nosotros__texto h2{
+    color: rgb(223, 45, 134);
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.nosotros__texto h5{
+    color:rgb(223, 45, 134);
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.nosotros__texto p{
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+button{
+    background-color:rgb(243, 170, 209);
+    text-decoration: none;      
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 18px 30px;
+    border-radius: 30px;
+    box-shadow: rgb(240, 41, 74);
+    transition: .4s ;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+button:hover {
+    background-color: transparent;
+    transition: .2s;
+    border: 2px solid deeppink;
+}
+.hacemos{
+    background-color:rgb(236, 194, 181);
+    width: 100%;
+    height: 100%;
+}
+.hacemos__titulo{
+    font-size: 24px;
+    color: rgb(223, 45, 134);
+    width: auto;
+    margin: 30px auto;
+    text-align: center;
+    padding: 25px;
+}
+.caja{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.tarjeta{   
+    height: 300px;  
+    width: 280  px;
+    padding: 20px 35px;
+    background-color:rgb(285, 216, 202); 
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden; 
+    text-align: center;  
+}
+.tarjeta i{
+    font-size:28px;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+    color: rgb(19, 18, 18);
+}
+.tarjeta h5{
+    color: rgb(223, 45, 134);
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.texto__tarjeta{
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+.form_contacto{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    background-color:  rgb(245, 236, 241);
+    
+}
+.formulario{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    padding: 10px 50px;
+}
+.contacto__titulos{
+    position: relative;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+.contacto__titulos h2{
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+.contacto__titulos h4{
+    font-size: 20px;
+}
+.form__info{
+    width: 80%;
+    padding: 15px 20px;
+    background-color: rgb(243, 217, 231)  ;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 2px rgb(241, 198, 241);
+    box-shadow: 0 0 20px purple;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+.form__info:hover{
+    background-color:rgb(243, 167, 207)  ;
+}
+.footer__contacto{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(245, 219, 233);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer__contacto p{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(223, 45, 134);
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+.footer__contacto a{
+    background-color:rgb(243, 170, 209);
+    text-decoration: none;      
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 18px 30px;
+    border-radius: 30px;
+    box-shadow: rgb(240, 41, 74);
+    transition: .4s ;
+    cursor: pointer;
+    color: rgb(19, 18, 18);
+}
+.footer__contacto a:hover{
+    background-color: transparent;
+    transition: .2s;
+    border: 2px solid deeppink;
+}
+@media (min-width:660px){
+    .logo{
+        padding: 6px;
+        margin-right: 20px;
+    }
+    .hamburguesa{
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px 5px;
+        }
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+        font-weight: bolder;
+        
+        }
+    nav ul li a:hover{
+        color: rgb(250, 148, 168);
+        transition: .4s ; 
+        }
+    .btn{
+        display: inline-block;
+        align-items: flex-end;
+        margin-left: 12px;
+    }
+    .newsletter form{
+        margin-top: 100px;  
+        margin-left: 50px;
+    }
+    .caja{
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        min-height: 400px;
+    }
+    .tarjeta{
+        height: 365px;  
+        width: 335px;
+    }
+    .tarjeta h5{
+        font-size: 30px;
+    }
+    .texto__tarjeta{
+        font-size: 18px;
+    }
+
+}
+@media (min-width:1000px){
+    nav{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        padding-top: 8px;  
+        padding-left: 25px;
+        padding-right: 8px;
+        font-size: 18px;  
+    }
+    nav ul li{
+        list-style-type: none;
+        padding: 10px 25px;
+        font-weight: bold;
+    }
+    h1{
+        color: antiquewhite;
+        margin: 20px 0px 20px;
+        font-size: 75px;
+    }
+    .span__h1{
+        color: rgb(235, 121, 140);
+    }
+    h3{
+        font-size: 28px;    
+        margin-bottom: 50px;
+    }
+    h4{
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .nosotros img{
+        display: inline-block;
+    }
+    .form_contacto{
+        width: 100%;
+        height: 140vh;
+        padding: 50px 0px;
+        background-color:  rgb(245, 236, 241);
+        
+    }
+    .formulario{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+        padding: 10px 50px;
+    }
+    .contacto__titulos{
+        position: relative;
+        margin-bottom: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .contacto__titulos h2{
+        font-size: 50px;
+        margin-bottom: 2px;
+    }
+    .contacto__titulos h4{
+        font-size: 40px;
+    }
+    .form__info{
+        width: 50%;
+        padding: 20px 30px;
+        background-color: rgb(243, 217, 231)  ;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        border: 2px rgb(241, 198, 241);
+        box-shadow: 0 0 20px purple;
+        color: black;
+        cursor: pointer;
+        text-align: center;
+    }
+    .form__info:hover{
+        background-color:rgb(243, 167, 207)  ;
+    }
+    .footer__contacto{
+        width: 100%;
+        height: 400px;
+        background-color:rgb(245, 219, 233);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__contacto p{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(223, 45, 134);
+        margin-bottom: 25px;
+    
+    }
+    .footer__contacto a{
+        background-color:rgb(243, 170, 209);
+        text-decoration: none;      
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 18px 30px;
+        border-radius: 30px;
+        box-shadow: rgb(240, 41, 74);
+        transition: .4s ;
+        cursor: pointer;
+        color: rgb(19, 18, 18);
+    }
+    .footer__contacto a:hover{
+        background-color: transparent;
+        transition: .2s;
+        border: 2px solid deeppink;
+    }
+}
