@@ -387,6 +387,10 @@ button:hover {
         padding: 10px 25px;
         font-weight: bold;
     }
+    nav ul li a:hover{
+        color: blue;
+        font-size: 32px;
+        }
     h1{
         color: antiquewhite;
         margin: 20px 0px 20px;
@@ -426,6 +430,9 @@ button:hover {
         width: 100%;
         height: 80%;
         padding: 10px 50px;
+        background-image: url(./multimedia/castillo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .contacto__titulos{
         position: relative;
@@ -455,7 +462,7 @@ button:hover {
         text-align: center;
     }
     .form__info:hover{
-        background-color:rgb(243, 167, 207)  ;
+        background-color:rgb(248, 15, 139)  ;
     }
     .footer__contacto{
         width: 100%;
